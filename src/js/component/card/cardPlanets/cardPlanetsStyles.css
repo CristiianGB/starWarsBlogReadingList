@@ -1,0 +1,12 @@
+.carta {
+  min-width: 18rem;
+}
+.planetsImg {
+  max-height: 270px;
+}
+.bodyCarta {
+  flex-direction: column;
+}
+.botonLink {
+  align-items: flex-end;
+}

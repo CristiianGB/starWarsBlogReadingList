@@ -1,0 +1,27 @@
+.carta {
+  min-width: 18rem;
+  border-radius: 3px;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  border: 1px solid white;
+  box-shadow: 3px 2px 6px rgb(255, 251, 232);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://www.todofondos.net/wp-content/uploads/coruscant-fondo-de-pantalla-de-star-wars-fondo-de-pantalla-de-pelicula.jpg);
+}
+.jediImg {
+  max-height: 270px;
+}
+.bodyCarta {
+  flex-direction: column;
+}
+
+i {
+  color: white;
+  float: right;
+  margin-top: 17px;
+  margin-right: 10px;
+}
+i:hover {
+  color: red;
+  cursor: pointer;
+}
