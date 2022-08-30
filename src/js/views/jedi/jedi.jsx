@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
-import { Context } from "/workspace/react-hello-webapp/src/js/store/appContext.jsx";
-import "/workspace/react-hello-webapp/src/js/views/jedi/jediStyles.css";
+import { Context } from "../../store/appContext.jsx";
+import "../jedi/jediStyles.css";
 
 export const Jedi = () => {
   const { store, actions } = useContext(Context);

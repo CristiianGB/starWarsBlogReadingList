@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useContext } from "react";
 import PropTypes from "prop-types";
 import { Link, useParams } from "react-router-dom";
-import { Context } from "/workspace/react-hello-webapp/src/js/store/appContext.jsx";
-import "/workspace/react-hello-webapp/src/js/views/vehicle/vehicleStyle.css";
+import { Context } from "../../store/appContext.jsx";
+import "../vehicle/vehicleStyle.css";
 
 export const Vehicle = (props) => {
   const { store, actions } = useContext(Context);

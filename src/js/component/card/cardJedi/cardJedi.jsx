@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import "/workspace/react-hello-webapp/src/js/component/card/cardJedi/cardJediStyles.css";
+import "../cardJedi/cardJediStyles.css";
 import { useContext } from "react";
-import { Context } from "/workspace/react-hello-webapp/src/js/store/appContext.jsx";
+import { Context } from "../../../store/appContext.jsx";
 import { Link } from "react-router-dom";
 
 const CardJedi = () => {
